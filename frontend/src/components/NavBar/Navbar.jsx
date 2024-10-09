@@ -2,6 +2,7 @@ import { useState } from "react";
 import { assets } from "../../assets/assets";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const NavBar = ({ setShowLogin }) => {
   const [menu, setMenu] = useState("home");
@@ -48,6 +49,10 @@ const NavBar = ({ setShowLogin }) => {
       </div>
     </div>
   );
+};
+
+NavBar.propTypes = {
+  setShowLogin: PropTypes.func.isRequired,
 };
 
 export default NavBar;
