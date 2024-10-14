@@ -30,6 +30,7 @@ const List = ({ url }) => {
 
   useEffect(() => {
     fetchList();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <div className="list add flex-col">
