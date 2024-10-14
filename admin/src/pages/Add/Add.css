@@ -23,7 +23,6 @@
 .add-product-name input,
 .add-product-description textarea {
   padding: 10px;
-
   border-radius: 5px;
   outline-color: #ffd803;
 }
