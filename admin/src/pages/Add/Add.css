@@ -12,6 +12,7 @@
 
 .add-img-upload img {
   width: 120px;
+  border-radius: 5px;
 }
 
 .add-product-name,
@@ -22,6 +23,9 @@
 .add-product-name input,
 .add-product-description textarea {
   padding: 10px;
+
+  border-radius: 5px;
+  outline-color: #ffd803;
 }
 
 .add-category-price {
@@ -33,6 +37,8 @@
 .add-category-price input {
   max-width: 120px;
   padding: 10px;
+  border-radius: 5px;
+  outline-color: #ffd803;
 }
 
 .add-btn {
@@ -40,7 +46,12 @@
   border: none;
   outline: none;
   padding: 10px;
-  background-color: black;
-  color: white;
+  background-color: #ffd803;
+  color: black;
   cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-btn:hover {
+  background-color: #ffaa00;
 }
