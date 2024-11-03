@@ -1,7 +1,11 @@
 .header {
-  height: 34vw;
+  height: 33vw;
   margin: 30px auto;
   background: url("../../assets/header_img.png") no-repeat;
+  background-position: center;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
   background-size: contain;
   position: relative;
 }
